@@ -1,4 +1,4 @@
-# EffectLibEnchancer
+# EffectLibEnhancer
 An addon of EffectLib, added some effects.
 
 PhysicsParticleEffect
