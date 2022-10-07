@@ -1,0 +1,32 @@
+Popcorn:
+    spell-class: ".instant.DummySpell"
+    effects:
+        1:
+            position: caster
+            effect: effectlib
+            effectlib:
+            class: PhysicsArmorStandEffect
+            gravity: 4
+            amount: 4
+            orientPitch: true
+            startPitch: 30to60
+            startYaw: -20to20
+            objectDuration: 140
+            velocity: 10to30
+            bounceAmplifier: 0.9
+            bounceAmount: 4
+        2:
+            position: caster
+            effect: effectlib
+            effectlib:
+            class: PhysicsArmorStandEffect
+            gravity: 4
+            amount: 4
+            orientPitch: true
+            startPitch: 30to60
+            startYaw: -20to20
+            objectDuration: 140
+            velocity: 10to30
+            bounceAmplifier: 0.9
+            bounceAmount: 4
+            item: GOLD_BLOCK
