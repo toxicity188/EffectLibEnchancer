@@ -32,7 +32,7 @@ EffectLibEnchncer:
                 bounceAmplifier: 0.9
                 bounceAmount: 4
                 
-#Warring
+# Warring
 do not call PhysicsArmorStandEffect effect asynchronously please.
 it causes Exception.
 
