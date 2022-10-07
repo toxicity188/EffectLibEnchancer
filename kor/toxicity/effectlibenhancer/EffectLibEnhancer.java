@@ -1,7 +1,6 @@
 package kor.toxicity.effectlibenhancer;
 
 import de.slikey.effectlib.EffectManager;
-import de.slikey.effectlib.util.ParticleDisplay;
 import org.bukkit.*;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -19,8 +18,8 @@ public class EffectLibEnhancer extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("[EffectLibEnhancer] Plugin successfully enabled.");
 
         Bukkit.getWorlds().forEach(w ->
-            w.getEntities().forEach(e -> {
-                if (e instanceof ArmorStand && e.getCustomName().equals("EffectLibEnhancer")) e.remove();
+             w.getEntities().forEach(e -> {
+                if (e instanceof ArmorStand && e.getCustomName() != null && e.getCustomName().equals("EffectLibEnhancer")) e.remove();
             })
         );
     }
