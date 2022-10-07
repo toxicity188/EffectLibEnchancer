@@ -30,3 +30,19 @@ Popcorn:
             bounceAmplifier: 0.9
             bounceAmount: 4
             item: GOLD_BLOCK
+Splash:
+    spell-class: ".instant.DummySpell"
+    effects:
+        1:
+            position: caster
+            effect: effectlib
+            effectlib:
+                class: PhysicsArmorStandEffect
+                gravity: 4
+                startYaw: 0to360
+                startPitch: 60to75
+                item: STONE
+                durability: 3
+                velocity: 15to25,30to40
+                bounceAmount: 3
+                amount: 3

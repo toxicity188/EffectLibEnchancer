@@ -3,4 +3,4 @@ author: toxicity
 description: EffectLib addon
 main: kor.toxicity.effectlibenhancer.EffectLibEnhancer
 version: 1.0
-depend: [EffectLib, MagicSpells]
+depend: [EffectLib]
