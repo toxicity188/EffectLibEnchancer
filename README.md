@@ -31,3 +31,8 @@ EffectLibEnchncer:
                 velocity: 10to30
                 bounceAmplifier: 0.9
                 bounceAmount: 4
+                
+#Warring
+do not call PhysicsArmorStandEffect effect asynchronously please.
+it causes Exception.
+
