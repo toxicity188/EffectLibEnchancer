@@ -20,8 +20,6 @@ public final class PhysicsArmorStandEffect extends PhysicsEffect {
     public boolean pitch = true;
     public boolean small = false;
 
-    private ArmorStand stand;
-
 
     public PhysicsArmorStandEffect(EffectManager effectManager) {
         super(effectManager);
