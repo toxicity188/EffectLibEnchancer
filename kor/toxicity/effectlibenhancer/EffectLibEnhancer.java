@@ -15,13 +15,13 @@ public class EffectLibEnhancer extends JavaPlugin {
     public void onEnable() {
         me = this;
         manager = new EffectManager(this);
-        Bukkit.getConsoleSender().sendMessage("[EffectLibEnhancer] Plugin successfully enabled.");
 
         Bukkit.getWorlds().forEach(w ->
              w.getEntities().forEach(e -> {
                 if (e instanceof ArmorStand && e.getCustomName() != null && e.getCustomName().equals("EffectLibEnhancer")) e.remove();
             })
         );
+        Bukkit.getConsoleSender().sendMessage("[EffectLibEnhancer] Plugin successfully enabled.");
     }
 
     @Override

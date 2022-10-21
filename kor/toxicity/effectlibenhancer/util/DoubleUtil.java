@@ -11,6 +11,9 @@ public class DoubleUtil {
     static {
         me = new DoubleUtil();
     }
+    private DoubleUtil() {
+
+    }
 
     public static DoubleUtil getInstance() {
         return me;

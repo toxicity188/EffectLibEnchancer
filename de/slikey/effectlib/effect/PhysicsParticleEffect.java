@@ -21,7 +21,7 @@ public final class PhysicsParticleEffect extends PhysicsEffect {
     public double horizSpread = 0;
     public double vertSpread= 0;
 
-    private Random rand = ThreadLocalRandom.current();
+    private final Random rand = ThreadLocalRandom.current();
 
 
     public PhysicsParticleEffect(EffectManager effectManager) {
